@@ -1,4 +1,4 @@
-import { ILogger } from "@application/interface/logger/logger.js";
+import { ILogger } from "@application/interface/logger/Ilogger.js";
 import winston from "winston";
 
 export class WinstonLogger implements ILogger {
@@ -7,7 +7,7 @@ export class WinstonLogger implements ILogger {
   constructor() {
     this.logger = winston.createLogger({
       level: process.env.NODE_ENV === "production" ? "info" : "debug",
-      defaultMeta: { service: "ocr-machine-service" },
+      // defaultMeta: { service: "ocr-machine-service" },
       format: winston.format.combine(
         winston.format.timestamp({ format: "YYYY-MM-DD HH:mm:ss.SSS" }),
         winston.format.errors({ stack: true }),

@@ -1,23 +1,25 @@
 import { ResponseBuilder } from "@application/common/apiResponse.js";
 import { AppError } from "@domain/exceptions/appError.js";
-import { ILogger } from "@application/interface/logger/logger.js";
+import type { ILogger } from "@application/interface/logger/Ilogger.js";
 import { ValidationError } from "@domain/exceptions/index.js";
-import { Request, Response, NextFunction } from "express";
+import type { Request, Response, NextFunction } from "express";
 
 export const errorHandler = (logger: ILogger) => {
-  return (err: any, req: Request, res: Response, next: NextFunction): void => {
+  return (err: unknown, req: Request, res: Response, next: NextFunction): void => {
+    console.warn(next);
     const correlationId = req.correlationId;
 
     // Log the error
-    logger.error(err.message || "Unknown error", {
-      correlationId,
-      stack: err.stack,
-      name: err.name,
-      statusCode: err.statusCode,
-    });
 
     // Operational (expected) errors
     if (err instanceof AppError) {
+      logger.error(err.message || "Unknown error", {
+        correlationId,
+        stack: err.stack,
+        name: err.name,
+        statusCode: err.statusCode,
+      });
+
       res
         .status(err.statusCode)
         .json(
@@ -31,13 +33,14 @@ export const errorHandler = (logger: ILogger) => {
       return;
     }
 
+    const message = err instanceof Error ? err.message : "something went wrong";
     // Unknown errors (500)
     res
       .status(500)
       .json(
         ResponseBuilder.error(
-          "Something went wrong",
-          process.env.NODE_ENV === "production" ? undefined : err.message,
+          message,
+          process.env.NODE_ENV === "production" ? undefined : message,
           undefined,
           correlationId,
         ),

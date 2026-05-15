@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "build": "tsc",
-    "start": "node -r tsconfig-paths/register dist/index.js",
+    "build": "tsc && tsc-alias",
+    "start": "node dist/index.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write ."
@@ -24,8 +24,10 @@
     "helmet": "^8.1.0",
     "morgan": "^1.10.1",
     "multer": "^2.1.1",
+    "pan-aadhaar-ocr": "^1.0.2",
     "reflect-metadata": "^0.2.2",
     "sharp": "^0.34.5",
+    "tesseract.js": "^7.0.0",
     "tsyringe": "^4.10.0",
     "typescript-eslint": "^8.59.3",
     "uuid": "^10.0.0",
@@ -38,9 +40,11 @@
     "@types/morgan": "^1.9.10",
     "@types/multer": "^2.1.0",
     "@types/node": "^22.0.0",
+    "@types/sharp": "^0.31.1",
     "@types/uuid": "^10.0.0",
     "eslint": "^9.0.0",
     "prettier": "^3.3.3",
+    "tsc-alias": "^1.8.17",
     "tsconfig-paths": "^4.2.0",
     "tsx": "^4.22.0",
     "typescript": "^5.9.3"

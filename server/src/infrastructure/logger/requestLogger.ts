@@ -1,6 +1,6 @@
 import { Request } from "express";
 import { WinstonLogger } from "./winstonLogger.js";
-import { ILogger } from "@application/interface/logger/logger.js";
+import { ILogger } from "@application/interface/logger/Ilogger.js";
 
 export class RequestLogger implements ILogger {
   private baseLogger: WinstonLogger;

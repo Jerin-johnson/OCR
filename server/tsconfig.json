@@ -10,7 +10,7 @@
     "strict": true,
     // ↓ remove noImplicitAny and strictNullChecks — strict covers both
     "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    // "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
     "esModuleInterop": true,
@@ -30,7 +30,8 @@
       "@application/*": ["./src/application/*"],
       "@infrastructure/*": ["./src/infrastructure/*"],
       "@domain/*": ["./src/domain/*"],
-      "@presentation/*": ["./src/presentation/*"]
+      "@presentation/*": ["./src/presentation/*"],
+      "@Di/*": ["./src/Di/*"]
     }
   },
 
