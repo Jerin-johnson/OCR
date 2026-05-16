@@ -21,3 +21,5 @@ build
 coverage
 # Optional: Ignore environment variable files
 .env
+
+text.txt

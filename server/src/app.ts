@@ -7,10 +7,13 @@ import { errorHandler } from "@presentation/middlewares/error.middleware.js";
 import { env } from "@core/config/env.js";
 import { correlationIdMiddleware } from "@presentation/middlewares/correlationId.middleware.js";
 import { parseRouter } from "@Di/parse.di.js";
+import compression from "compression";
 
 const app = express();
 
 const logger = new RequestLogger();
+
+app.use(compression());
 
 app.use(cors());
 app.use(helmet());
