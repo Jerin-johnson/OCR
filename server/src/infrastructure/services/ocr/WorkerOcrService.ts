@@ -6,7 +6,7 @@ import type { AadhaarCard } from "@domain/entities/AadhaarCard.js";
 export class WorkerOcrService implements IOcrService {
   constructor(private readonly logger: ILogger) {}
 
-  async processAadhaar(frontImagePath: string, backImagePath: string): Promise<AadhaarCard> {
+  async processAadhaar(frontImagePath: Buffer, backImagePath: Buffer): Promise<AadhaarCard> {
     return new Promise((resolve, reject) => {
       const worker = new Worker(new URL("./workers/aadhaarOcrWorker.js", import.meta.url), {
         workerData: {

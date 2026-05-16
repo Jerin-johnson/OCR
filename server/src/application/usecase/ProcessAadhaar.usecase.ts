@@ -10,7 +10,7 @@ export class ProcessAadhaarUseCase implements IProcessAadhaarUseCase {
     private readonly logger: ILogger,
   ) {}
 
-  async execute(frontPath: string, backPath: string, correlationId?: string): Promise<AadhaarCard> {
+  async execute(frontPath: Buffer, backPath: Buffer, correlationId?: string): Promise<AadhaarCard> {
     this.logger.info("Starting Aadhaar OCR processing", { correlationId });
 
     if (!frontPath || !backPath) {
@@ -18,6 +18,7 @@ export class ProcessAadhaarUseCase implements IProcessAadhaarUseCase {
     }
 
     try {
+      // this.log("the usecase is working");
       const result = await this.ocrService.processAadhaar(frontPath, backPath);
 
       this.logger.info("Aadhaar OCR completed successfully", {

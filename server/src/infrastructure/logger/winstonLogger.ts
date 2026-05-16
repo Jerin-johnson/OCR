@@ -1,4 +1,4 @@
-import { ILogger } from "@application/interface/logger/Ilogger.js";
+import type { ILogger } from "@application/interface/logger/Ilogger.js";
 import winston from "winston";
 
 export class WinstonLogger implements ILogger {

@@ -2,9 +2,6 @@ import { parentPort, workerData } from "worker_threads";
 import sharp from "sharp";
 import Tesseract from "tesseract.js";
 
-sharp.cache(false);
-sharp.concurrency(1);
-
 async function main() {
   const { frontImagePath, backImagePath } = workerData;
 
@@ -71,7 +68,7 @@ function extractAadhaarData(fullText: string) {
     address: "",
     mobile: "",
     vid: "",
-    // rawText: fullText.substring(0, 2200),
+    rawText: fullText.substring(0, 2200),
     confidence: 0,
   };
 

@@ -2,3 +2,223 @@
 {"env":"development","level":"info","message":"Server initializing...","timestamp":"2026-05-16 13:05:59.349"}
 {"env":"development","level":"info","message":"Server initializing...","timestamp":"2026-05-16 13:06:14.705"}
 {"env":"development","level":"info","message":"Server initializing...","timestamp":"2026-05-16 13:19:35.541"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 15:33:27.009"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 15:35:08.323"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 15:35:48.030"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 15:36:37.227"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 15:38:50.947"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 15:39:22.235"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 15:39:54.558"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 15:41:04.704"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 15:41:17.541"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 15:41:26.557"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 15:43:02.175"}
+{"correlationId":"ccd62e5b-d331-42ea-a32f-1db5be64d9c2","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 15:43:04.737"}
+{"correlationId":"ccd62e5b-d331-42ea-a32f-1db5be64d9c2","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 15:43:04.738"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 15:43:04.738"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 15:43:04.740"}
+{"correlationId":"ccd62e5b-d331-42ea-a32f-1db5be64d9c2","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 15:43:07.517"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 15:44:42.330"}
+{"correlationId":"e5725aae-abaa-45cf-9c62-59b37b30076d","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 15:44:45.348"}
+{"correlationId":"e5725aae-abaa-45cf-9c62-59b37b30076d","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 15:44:45.348"}
+{"error":"Cannot find module 'C:\\Users\\jerin\\OneDrive\\Desktop\\OCR-MACHINE-TASK\\server\\src\\infrastructure\\services\\ocr\\workers\\aadhaarOcrWorker.js' imported from C:\\Users\\jerin\\OneDrive\\Desktop\\OCR-MACHINE-TASK\\server\\","level":"error","message":"Worker error","timestamp":"2026-05-16 15:44:45.462"}
+{"correlationId":"e5725aae-abaa-45cf-9c62-59b37b30076d","error":"Cannot find module 'C:\\Users\\jerin\\OneDrive\\Desktop\\OCR-MACHINE-TASK\\server\\src\\infrastructure\\services\\ocr\\workers\\aadhaarOcrWorker.js' imported from C:\\Users\\jerin\\OneDrive\\Desktop\\OCR-MACHINE-TASK\\server\\","level":"error","message":"OCR processing failed","timestamp":"2026-05-16 15:44:45.462"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 15:45:13.735"}
+{"correlationId":"b0044d90-9f0b-41ff-b1f8-d355b73d0e08","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 15:45:15.035"}
+{"correlationId":"b0044d90-9f0b-41ff-b1f8-d355b73d0e08","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 15:45:15.036"}
+{"error":"Cannot find module 'C:\\Users\\jerin\\OneDrive\\Desktop\\OCR-MACHINE-TASK\\server\\src\\infrastructure\\services\\ocr\\workers\\aadhaarOcrWorker.js' imported from C:\\Users\\jerin\\OneDrive\\Desktop\\OCR-MACHINE-TASK\\server\\","level":"error","message":"Worker error","timestamp":"2026-05-16 15:45:15.148"}
+{"correlationId":"b0044d90-9f0b-41ff-b1f8-d355b73d0e08","error":"Cannot find module 'C:\\Users\\jerin\\OneDrive\\Desktop\\OCR-MACHINE-TASK\\server\\src\\infrastructure\\services\\ocr\\workers\\aadhaarOcrWorker.js' imported from C:\\Users\\jerin\\OneDrive\\Desktop\\OCR-MACHINE-TASK\\server\\","level":"error","message":"OCR processing failed","timestamp":"2026-05-16 15:45:15.149"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 15:45:36.433"}
+{"correlationId":"5cb4b9da-8c7f-40a2-88ce-1e120281fc74","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 15:45:39.590"}
+{"correlationId":"5cb4b9da-8c7f-40a2-88ce-1e120281fc74","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 15:45:39.591"}
+{"correlationId":"5cb4b9da-8c7f-40a2-88ce-1e120281fc74","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 15:45:43.703"}
+{"correlationId":"d4c01966-0326-476e-ad2d-3a9a34792754","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 15:46:40.226"}
+{"correlationId":"d4c01966-0326-476e-ad2d-3a9a34792754","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 15:46:40.227"}
+{"correlationId":"d4c01966-0326-476e-ad2d-3a9a34792754","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 15:46:44.610"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 15:47:01.464"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 15:47:11.272"}
+{"correlationId":"37302da2-f5ab-4249-8c79-6c5f6b9b3d47","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 15:47:15.890"}
+{"correlationId":"37302da2-f5ab-4249-8c79-6c5f6b9b3d47","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 15:47:15.891"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 15:47:15.891"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 15:47:15.893"}
+{"correlationId":"37302da2-f5ab-4249-8c79-6c5f6b9b3d47","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 15:47:18.016"}
+{"correlationId":"0081df3a-8d9f-477a-a07a-de004dabccd9","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 15:47:31.079"}
+{"correlationId":"0081df3a-8d9f-477a-a07a-de004dabccd9","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 15:47:31.079"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 15:47:31.080"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 15:47:31.080"}
+{"correlationId":"0081df3a-8d9f-477a-a07a-de004dabccd9","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 15:47:32.669"}
+{"correlationId":"ad0feb24-6ad9-4190-9538-f8172289be2f","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 15:47:34.590"}
+{"correlationId":"ad0feb24-6ad9-4190-9538-f8172289be2f","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 15:47:34.591"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 15:47:34.591"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 15:47:34.591"}
+{"correlationId":"ad0feb24-6ad9-4190-9538-f8172289be2f","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 15:47:36.153"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 15:48:37.901"}
+{"correlationId":"e6537144-c9d2-46e7-8372-71e4f0aae4fd","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 15:48:44.663"}
+{"correlationId":"e6537144-c9d2-46e7-8372-71e4f0aae4fd","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 15:48:44.664"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 15:48:44.664"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 15:48:44.665"}
+{"correlationId":"e6537144-c9d2-46e7-8372-71e4f0aae4fd","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 15:48:46.895"}
+{"correlationId":"2b5edf81-837c-455d-ba0f-795f62be8eb1","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 15:49:14.233"}
+{"correlationId":"2b5edf81-837c-455d-ba0f-795f62be8eb1","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 15:49:14.233"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 15:49:14.234"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 15:49:14.234"}
+{"correlationId":"2b5edf81-837c-455d-ba0f-795f62be8eb1","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 15:49:15.810"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:01:15.989"}
+{"correlationId":"9a0f0c52-a44a-46c5-a598-57c2aa4d237b","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:05:54.060"}
+{"correlationId":"9a0f0c52-a44a-46c5-a598-57c2aa4d237b","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:05:54.088"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:05:54.090"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 16:05:54.097"}
+{"correlationId":"9a0f0c52-a44a-46c5-a598-57c2aa4d237b","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:06:00.270"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:06:51.053"}
+{"correlationId":"ee817d5e-1d2a-4d16-96bd-6aae4b5b52c9","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:06:56.210"}
+{"correlationId":"ee817d5e-1d2a-4d16-96bd-6aae4b5b52c9","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:06:56.211"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:06:56.212"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 16:06:56.216"}
+{"correlationId":"ee817d5e-1d2a-4d16-96bd-6aae4b5b52c9","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:07:01.658"}
+{"correlationId":"d01665ba-4507-4581-99e2-9fffec5b0a4f","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:07:07.052"}
+{"correlationId":"d01665ba-4507-4581-99e2-9fffec5b0a4f","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:07:07.055"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:07:07.055"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 16:07:07.056"}
+{"correlationId":"d01665ba-4507-4581-99e2-9fffec5b0a4f","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:07:11.340"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:11:36.884"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:11:58.133"}
+{"correlationId":"cad26998-3dfb-44b1-a50c-7fe820318b5c","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:15:00.969"}
+{"correlationId":"cad26998-3dfb-44b1-a50c-7fe820318b5c","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:15:00.993"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:15:00.995"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 16:15:01.000"}
+{"correlationId":"cad26998-3dfb-44b1-a50c-7fe820318b5c","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:15:07.217"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:21:27.966"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:21:45.823"}
+{"correlationId":"6d742e53-e32f-4a08-90c4-fd480358d030","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:22:09.961"}
+{"correlationId":"6d742e53-e32f-4a08-90c4-fd480358d030","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:22:09.965"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:22:09.966"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 16:22:09.970"}
+{"correlationId":"6d742e53-e32f-4a08-90c4-fd480358d030","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:22:16.151"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:22:58.722"}
+{"correlationId":"69a57a97-8c38-403a-b11e-2b53c14fc8bf","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:23:21.289"}
+{"correlationId":"69a57a97-8c38-403a-b11e-2b53c14fc8bf","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:23:21.291"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:23:21.292"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 16:23:21.296"}
+{"correlationId":"69a57a97-8c38-403a-b11e-2b53c14fc8bf","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:23:27.274"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:23:49.605"}
+{"correlationId":"8823a5cc-4b59-459f-b786-cf6e0ddc325d","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:23:52.790"}
+{"correlationId":"8823a5cc-4b59-459f-b786-cf6e0ddc325d","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:23:52.791"}
+{"error":"Cannot find module 'C:\\Users\\jerin\\OneDrive\\Desktop\\OCR-MACHINE-TASK\\server\\src\\infrastructure\\services\\ocr\\workers\\aadhaarOcrWorker.js' imported from C:\\Users\\jerin\\OneDrive\\Desktop\\OCR-MACHINE-TASK\\server\\","level":"error","message":"Worker error","timestamp":"2026-05-16 16:23:53.099"}
+{"correlationId":"8823a5cc-4b59-459f-b786-cf6e0ddc325d","error":"Cannot find module 'C:\\Users\\jerin\\OneDrive\\Desktop\\OCR-MACHINE-TASK\\server\\src\\infrastructure\\services\\ocr\\workers\\aadhaarOcrWorker.js' imported from C:\\Users\\jerin\\OneDrive\\Desktop\\OCR-MACHINE-TASK\\server\\","level":"error","message":"OCR processing failed","timestamp":"2026-05-16 16:23:53.101"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:24:16.802"}
+{"correlationId":"87384524-f195-49b6-a98e-399da6a69a09","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:24:21.557"}
+{"correlationId":"87384524-f195-49b6-a98e-399da6a69a09","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:24:21.558"}
+{"correlationId":"87384524-f195-49b6-a98e-399da6a69a09","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:24:33.444"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:25:31.436"}
+{"correlationId":"8006b324-dfb1-40a7-8bbb-20ee1d198354","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:25:35.718"}
+{"correlationId":"8006b324-dfb1-40a7-8bbb-20ee1d198354","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:25:35.720"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:25:35.720"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 16:25:35.724"}
+{"correlationId":"8006b324-dfb1-40a7-8bbb-20ee1d198354","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:25:41.584"}
+{"correlationId":"5d2f236d-04b9-4232-a425-8364296e9746","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:27:56.324"}
+{"correlationId":"5d2f236d-04b9-4232-a425-8364296e9746","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:27:56.327"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:27:56.329"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 16:27:56.332"}
+{"correlationId":"5d2f236d-04b9-4232-a425-8364296e9746","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:28:01.337"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:28:30.338"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:29:08.114"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:29:31.210"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:29:33.796"}
+{"correlationId":"7cc00794-7b05-4621-8763-5e168338f4f5","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:29:36.720"}
+{"correlationId":"7cc00794-7b05-4621-8763-5e168338f4f5","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:29:36.721"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:29:36.723"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 16:29:36.729"}
+{"correlationId":"7cc00794-7b05-4621-8763-5e168338f4f5","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:29:47.099"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:30:00.819"}
+{"correlationId":"a1c0d3bd-60ae-4686-8eec-b6c0ce215cda","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:30:04.994"}
+{"correlationId":"a1c0d3bd-60ae-4686-8eec-b6c0ce215cda","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:30:04.996"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:30:04.997"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 16:30:05.001"}
+{"correlationId":"a1c0d3bd-60ae-4686-8eec-b6c0ce215cda","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:30:15.603"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:31:09.858"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:31:39.147"}
+{"correlationId":"2ff4a271-03d9-4e40-9993-3027db162b47","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:31:42.758"}
+{"correlationId":"2ff4a271-03d9-4e40-9993-3027db162b47","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:31:42.761"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:31:42.762"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 16:31:42.765"}
+{"correlationId":"2ff4a271-03d9-4e40-9993-3027db162b47","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:31:49.632"}
+{"correlationId":"cd3f31ac-3542-43ff-8f53-04acc591dcc1","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:31:57.512"}
+{"correlationId":"cd3f31ac-3542-43ff-8f53-04acc591dcc1","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:31:57.513"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:31:57.514"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 16:31:57.516"}
+{"correlationId":"cd3f31ac-3542-43ff-8f53-04acc591dcc1","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:32:02.397"}
+{"correlationId":"e4807646-cc13-42db-881d-09d6a8da3854","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:32:07.196"}
+{"correlationId":"e4807646-cc13-42db-881d-09d6a8da3854","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:32:07.196"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:32:07.197"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 16:32:07.197"}
+{"correlationId":"e4807646-cc13-42db-881d-09d6a8da3854","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:32:12.129"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:33:36.305"}
+{"correlationId":"51cdf034-810a-49dd-a3d7-8a56656e585a","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:33:43.914"}
+{"correlationId":"51cdf034-810a-49dd-a3d7-8a56656e585a","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:33:43.916"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:33:43.917"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 16:33:43.921"}
+{"correlationId":"51cdf034-810a-49dd-a3d7-8a56656e585a","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:33:47.947"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:34:12.596"}
+{"correlationId":"5c731606-35a6-4457-8fe3-a73af0d09c20","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:34:15.574"}
+{"correlationId":"5c731606-35a6-4457-8fe3-a73af0d09c20","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:34:15.575"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:34:15.577"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 16:34:15.578"}
+{"correlationId":"5c731606-35a6-4457-8fe3-a73af0d09c20","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:34:19.439"}
+{"correlationId":"259e8f54-429c-4b64-b1eb-5266effaaa93","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:34:22.754"}
+{"correlationId":"259e8f54-429c-4b64-b1eb-5266effaaa93","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:34:22.756"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:34:22.757"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 16:34:22.758"}
+{"correlationId":"259e8f54-429c-4b64-b1eb-5266effaaa93","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:34:25.034"}
+{"correlationId":"0dd61332-28bf-4d7b-ba16-7a5b2de5f987","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:34:29.889"}
+{"correlationId":"0dd61332-28bf-4d7b-ba16-7a5b2de5f987","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:34:29.890"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:34:29.890"}
+{"level":"warn","message":"will this print","timestamp":"2026-05-16 16:34:29.891"}
+{"correlationId":"0dd61332-28bf-4d7b-ba16-7a5b2de5f987","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:34:32.074"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:35:03.418"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:35:14.251"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:35:27.489"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:35:38.603"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:35:47.345"}
+{"correlationId":"fef322de-638e-4d32-9b07-4c904bf21a10","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:36:26.028"}
+{"correlationId":"fef322de-638e-4d32-9b07-4c904bf21a10","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:36:26.029"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:36:26.030"}
+{"correlationId":"136f608a-bf96-4131-b8c9-86a61e03ca92","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:36:26.984"}
+{"correlationId":"136f608a-bf96-4131-b8c9-86a61e03ca92","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:36:26.986"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:36:26.986"}
+{"correlationId":"fef322de-638e-4d32-9b07-4c904bf21a10","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:36:28.657"}
+{"correlationId":"136f608a-bf96-4131-b8c9-86a61e03ca92","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:36:29.188"}
+{"correlationId":"85963df8-1a0a-4382-a61e-25f691b381cb","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:36:52.535"}
+{"correlationId":"85963df8-1a0a-4382-a61e-25f691b381cb","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:36:52.536"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:36:52.537"}
+{"correlationId":"85963df8-1a0a-4382-a61e-25f691b381cb","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:36:54.818"}
+{"correlationId":"3450029d-cfa5-4603-9830-56670dc53c53","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:37:14.365"}
+{"correlationId":"3450029d-cfa5-4603-9830-56670dc53c53","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:37:14.365"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:37:14.367"}
+{"correlationId":"3450029d-cfa5-4603-9830-56670dc53c53","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:37:16.552"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:38:21.180"}
+{"correlationId":"0fd599a4-ffd8-4481-9a5a-69ac232a4bec","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:38:24.118"}
+{"correlationId":"0fd599a4-ffd8-4481-9a5a-69ac232a4bec","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:38:24.120"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:38:24.121"}
+{"correlationId":"0fd599a4-ffd8-4481-9a5a-69ac232a4bec","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:38:28.500"}
+{"correlationId":"e5fc747c-c76a-45e7-8bbf-81b0e5515588","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:38:34.139"}
+{"correlationId":"e5fc747c-c76a-45e7-8bbf-81b0e5515588","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:38:34.140"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:38:34.141"}
+{"correlationId":"e5fc747c-c76a-45e7-8bbf-81b0e5515588","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:38:38.292"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:38:53.539"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:39:02.382"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:39:06.912"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:44:06.029"}
+{"correlationId":"f555f698-f176-4e2b-a405-76ff0089bb74","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:44:10.963"}
+{"correlationId":"f555f698-f176-4e2b-a405-76ff0089bb74","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:44:10.965"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:44:10.968"}
+{"correlationId":"f555f698-f176-4e2b-a405-76ff0089bb74","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:44:17.348"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:44:40.546"}
+{"env":"production","level":"info","message":"Server initializing...","timestamp":"2026-05-16 16:44:44.433"}
+{"correlationId":"4871712a-0bc5-47fc-a7ac-cb4882455f60","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:44:46.626"}
+{"correlationId":"4871712a-0bc5-47fc-a7ac-cb4882455f60","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:44:46.627"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:44:46.628"}
+{"correlationId":"4871712a-0bc5-47fc-a7ac-cb4882455f60","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:44:49.156"}
+{"correlationId":"a95a8d9e-254a-4b9e-9ad3-ba7cadb40f3b","level":"info","message":"Aadhaar OCR request received","timestamp":"2026-05-16 16:44:55.044"}
+{"correlationId":"a95a8d9e-254a-4b9e-9ad3-ba7cadb40f3b","level":"info","message":"Starting Aadhaar OCR processing","timestamp":"2026-05-16 16:44:55.045"}
+{"level":"info","message":"is this is working","timestamp":"2026-05-16 16:44:55.046"}
+{"correlationId":"a95a8d9e-254a-4b9e-9ad3-ba7cadb40f3b","hasAadhaarNumber":true,"level":"info","message":"Aadhaar OCR completed successfully","timestamp":"2026-05-16 16:44:57.348"}
