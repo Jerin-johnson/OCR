@@ -13,6 +13,7 @@ yarn-debug.log*
 yarn-error.log*
 ```
 logs/
+uploads/
 
 # Optional: Ignore build artifacts
 build
