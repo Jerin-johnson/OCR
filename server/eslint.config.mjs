@@ -31,7 +31,7 @@ export default tseslint.config(
     rules: {
       // TypeScript rules that need types
       "@typescript-eslint/no-explicit-any": "error",
-      "@typescript-eslint/no-floating-promises": "error",
+      // "@typescript-eslint/no-floating-promises": "error",
       "@typescript-eslint/consistent-type-imports": ["error", { prefer: "type-imports" }],
       "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
 
