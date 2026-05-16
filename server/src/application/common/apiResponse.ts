@@ -1,8 +1,6 @@
-// Generic interface for all API responses
 export interface ApiResponse<T = unknown> {
-  // Changed 'any' to 'unknown' (safer)
   success: boolean; // true = success, false = failed
-  message: string; // Human readable message
+  message: string; //  readable message
   data?: T; // Actual data (only on success)
   error?: string; // Error name/type (only on failure)
   errors?: Record<string, string[]>; // Field validation errors
