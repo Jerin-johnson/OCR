@@ -2,6 +2,9 @@ import { parentPort, workerData } from "worker_threads";
 import sharp from "sharp";
 import Tesseract from "tesseract.js";
 
+sharp.cache(false);
+sharp.concurrency(1);
+
 async function main() {
   const { frontImagePath, backImagePath } = workerData;
 
@@ -45,7 +48,7 @@ async function main() {
 async function preprocessImage(imagePath: string) {
   return sharp(imagePath)
     .grayscale()
-    .resize(2200, null, { fit: "inside" }) // Higher resolution for better accuracy
+    .resize(1400, null, { fit: "inside" }) // Higher resolution for better accuracy
     .normalize() // Improve contrast
     .sharpen({ sigma: 1.2 }) // Reduce blur
     .toBuffer();
@@ -68,7 +71,7 @@ function extractAadhaarData(fullText: string) {
     address: "",
     mobile: "",
     vid: "",
-    rawText: fullText.substring(0, 2200),
+    // rawText: fullText.substring(0, 2200),
     confidence: 0,
   };
 
