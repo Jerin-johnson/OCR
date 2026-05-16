@@ -25,6 +25,8 @@ const limiter = rateLimit({
 
 const app = express();
 
+app.set("trust proxy", 1);
+
 const logger = new RequestLogger();
 
 app.use(compression());

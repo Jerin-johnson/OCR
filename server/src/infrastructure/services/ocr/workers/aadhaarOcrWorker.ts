@@ -7,15 +7,23 @@ async function main() {
 
   try {
     // Enhanced preprocessing with multiple variants
-    const [frontBuffer, backBuffer] = await Promise.all([
-      preprocessImage(frontImagePath),
-      preprocessImage(backImagePath),
-    ]);
+    // const [frontBuffer, backBuffer] = await Promise.all([
+    //   preprocessImage(frontImagePath),
+    //   preprocessImage(backImagePath),
+    // ]);
 
-    const [front, back] = await Promise.all([
-      Tesseract.recognize(frontBuffer, "eng+hin"),
-      Tesseract.recognize(backBuffer, "eng+hin"),
-    ]);
+    const frontBuffer = await preprocessImage(frontImagePath);
+
+    const backBuffer = await preprocessImage(backImagePath);
+
+    // const [front, back] = await Promise.all([
+    //   Tesseract.recognize(frontBuffer, "eng+hin"),
+    //   Tesseract.recognize(backBuffer, "eng+hin"),
+    // ]);
+
+    const front = await Tesseract.recognize(frontBuffer, "eng+hin");
+
+    const back = await Tesseract.recognize(backBuffer, "eng+hin");
 
     const fullText = (front.data.text + "\n" + back.data.text).trim();
 
